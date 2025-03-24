@@ -1,0 +1,12 @@
+train: C:\Users\admin\Documents\violence_maksad.v2-23k.yolov11\train\images
+val: C:\Users\admin\Documents\violence_maksad.v2-23k.yolov11\valid\images
+
+nc: 1
+names: ['violence']
+
+roboflow:
+  workspace: jaishreeram
+  project: violence_maksad
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jaishreeram/violence_maksad/dataset/2
